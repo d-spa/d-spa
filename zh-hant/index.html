@@ -81,6 +81,14 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.85rem;text-align:center
   .person{grid-template-columns:200px 1fr;align-items:start}
 }
 
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.pair{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.pair h3{font-family:var(--display);font-size:1.05rem;margin:0 0 4px;color:var(--accent)}
+.pair p{font-size:.85rem;color:var(--muted);margin:0;line-height:1.7}
+.course.sig{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.course .tag{display:inline-block;font-size:.72rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;margin-bottom:6px}
+@media (min-width:720px){.pairs{grid-template-columns:repeat(3,1fr)}}
+
 .logo{white-space:nowrap;text-decoration:none;color:var(--fg)}
 .langs a{font-size:.8rem;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:2px 10px;text-decoration:none}
 .langs a[aria-current]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
@@ -109,7 +117,7 @@ footer a{color:var(--muted)}
 </div></header>
 <main>
   <div class="hero"><img src="/img/hero.jpg" alt="" width="1080" height="1350">
-    <div class="cap"><h1>海邊的一間房，<br>每天只為一組客人。</h1><p>D-SPA 在日本海邊的度假公寓裡經營小型私人沙龍，每天只接待一組客人。</p></div></div>
+    <div class="cap"><h1>海邊的一間房，<br>每天只為一組客人。</h1><p>D-SPA 在日本海邊的度假公寓裡經營小型私人沙龍，每天只接待一組客人。D 代表 Double、Dual、Duo，即「二」：兩位療癒師，一同為你調理。</p></div></div>
   <section><div class="wrap"><h2>沙龍</h2><div class="stores"><a class="store" href="/shirahama/zh-hant/"><div class="n">D-SHIRAHAMA</div><div class="s">和歌山・南紀白濱　圓月島旁</div></a></div></div></section>
   <section><div class="wrap"><h2>D-SPA 的願景</h2><p>我們相信，美麗來自健康。D-SPA 是一間在度假公寓的一室裡，提供結合東方中醫學與西方營養學的整合性照護的私人沙龍。</p><p>在溫泉之鄉，打造一個連結日本「湯治」（在溫泉地長住調養身體）文化與整合醫療的場所，並在未來發展成與醫療機構合作的設施，這是我們的夢想。</p><p class="note">目前沙龍的療程以放鬆為目的，並非醫療行為。</p></div></section>
 </main>

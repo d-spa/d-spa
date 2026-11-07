@@ -81,6 +81,14 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.85rem;text-align:center
   .person{grid-template-columns:200px 1fr;align-items:start}
 }
 
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.pair{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.pair h3{font-family:var(--display);font-size:1.05rem;margin:0 0 4px;color:var(--accent)}
+.pair p{font-size:.85rem;color:var(--muted);margin:0;line-height:1.7}
+.course.sig{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.course .tag{display:inline-block;font-size:.72rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;margin-bottom:6px}
+@media (min-width:720px){.pairs{grid-template-columns:repeat(3,1fr)}}
+
 .logo{white-space:nowrap;text-decoration:none;color:var(--fg)}
 .langs a{font-size:.8rem;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:2px 10px;text-decoration:none}
 .langs a[aria-current]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
@@ -109,7 +117,7 @@ footer a{color:var(--muted)}
 </div></header>
 <main>
   <div class="hero"><img src="/img/hero.jpg" alt="" width="1080" height="1350">
-    <div class="cap"><h1>A room by the sea, one group a day.</h1><p>D-SPA runs small private salons in seaside resort apartments in Japan. We host only one group a day.</p></div></div>
+    <div class="cap"><h1>A room by the sea, one group a day.</h1><p>D-SPA runs small private salons in seaside resort apartments in Japan. We host only one group a day. The D is for Double, Dual and Duo: two therapists, caring for you together.</p></div></div>
   <section><div class="wrap"><h2>Salons</h2><div class="stores"><a class="store" href="/shirahama/en/"><div class="n">D-SHIRAHAMA</div><div class="s">Shirahama, Wakayama · near Engetsu Island</div></a></div></div></section>
   <section><div class="wrap"><h2>What D-SPA is working toward</h2><p>We believe beauty grows out of good health. D-SPA is a private salon that offers integrated care, bringing together Chinese medicine from the East and nutrition science from the West, in a single room at a resort.</p><p>Our dream is to create a place in a hot-spring town that connects Japan's tradition of toji, staying at a spa to restore the body, with integrative medicine, and in time to grow it into a facility that works with medical institutions.</p><p class="note">Treatments at our salon are currently for relaxation. They are not medical treatment.</p></div></section>
 </main>

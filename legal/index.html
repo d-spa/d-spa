@@ -76,6 +76,14 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.85rem;text-align:center
   .person{grid-template-columns:200px 1fr;align-items:start}
 }
 
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.pair{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.pair h3{font-family:var(--display);font-size:1.05rem;margin:0 0 4px;color:var(--accent)}
+.pair p{font-size:.85rem;color:var(--muted);margin:0;line-height:1.7}
+.course.sig{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.course .tag{display:inline-block;font-size:.72rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;margin-bottom:6px}
+@media (min-width:720px){.pairs{grid-template-columns:repeat(3,1fr)}}
+
 .logo{white-space:nowrap;text-decoration:none;color:var(--fg)}
 .langs a{font-size:.8rem;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:2px 10px;text-decoration:none}
 .langs a[aria-current]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}

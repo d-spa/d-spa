@@ -81,6 +81,14 @@ footer{padding:32px 0 48px;color:var(--muted);font-size:.85rem;text-align:center
   .person{grid-template-columns:200px 1fr;align-items:start}
 }
 
+.pairs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.pair{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px}
+.pair h3{font-family:var(--display);font-size:1.05rem;margin:0 0 4px;color:var(--accent)}
+.pair p{font-size:.85rem;color:var(--muted);margin:0;line-height:1.7}
+.course.sig{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent)}
+.course .tag{display:inline-block;font-size:.72rem;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:2px 10px;margin-bottom:6px}
+@media (min-width:720px){.pairs{grid-template-columns:repeat(3,1fr)}}
+
 .logo{white-space:nowrap;text-decoration:none;color:var(--fg)}
 .langs a{font-size:.8rem;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:2px 10px;text-decoration:none}
 .langs a[aria-current]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
@@ -109,7 +117,7 @@ footer a{color:var(--muted)}
 </div></header>
 <main>
   <div class="hero"><img src="/img/hero.jpg" alt="" width="1080" height="1350">
-    <div class="cap"><h1>海のそばの一室で、<br>1日1組だけ。</h1><p>D-SPA は、リゾートマンションの一室で営む、1日1組だけのプライベートサロンです。</p></div></div>
+    <div class="cap"><h1>海のそばの一室で、<br>1日1組だけ。</h1><p>D-SPA は、リゾートマンションの一室で営む、1日1組だけのプライベートサロンです。D は Double・Dual・Duo、「ふたつ」の意味。ふたりの施術者が、ひとりのお客さまに向き合います。</p></div></div>
   <section><div class="wrap"><h2>サロン</h2><div class="stores"><a class="store" href="/shirahama/"><div class="n">D-SHIRAHAMA</div><div class="s">和歌山・南紀白浜　円月島のそば</div></a></div></div></section>
   <section><div class="wrap"><h2>D-SPA が目指すもの</h2><p>美しさは健康から生まれる、と私たちは考えています。D-SPA は、東洋の中医学と西洋の栄養学を組み合わせた統合的なケアを、リゾートの一室でお届けするプライベートサロンです。</p><p>温泉地で、湯治の文化と統合医療を結ぶ場をつくること。いずれは医療機関と連携した施設へと育てていくことが、私たちの夢です。</p><p class="note">現在のサロンの施術はリラクゼーションを目的としたもので、医療行為ではありません。</p></div></section>
 </main>
